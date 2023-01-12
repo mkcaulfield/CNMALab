@@ -1,0 +1,481 @@
+2.8803 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.9859 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.9865 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe6438d9ac0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe613eeb880>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.9870 	EXP 	window1: mouseVisible = True
+10.9871 	EXP 	window1: mouseVisible = True
+10.9871 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.9871 	EXP 	window1: recordFrameIntervals = False
+11.1111 	EXP 	window1: recordFrameIntervals = True
+11.3434 	WARNING 	t of last frame was 33.44ms (=1/29)
+11.4339 	WARNING 	t of last frame was 23.02ms (=1/43)
+11.4838 	WARNING 	t of last frame was 22.84ms (=1/43)
+11.8335 	WARNING 	t of last frame was 22.55ms (=1/44)
+12.0910 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+12.3444 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.3818 	EXP 	Created displayWaiting = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='displayWaiting', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Awaiting start signal from scanner...', units='height', win=Window(...), wrapWidth=1)
+14.3846 	EXP 	Created D_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='D_Cue', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.3881 	EXP 	Created D_Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='D_Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.6586 	EXP 	Created Reflect = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Reflect', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Notice thoughts', units='height', win=Window(...), wrapWidth=1)
+14.6802 	EXP 	window1: mouseVisible = True
+14.7094 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+14.7114 	EXP 	Created sliderText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sliderText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.7128 	EXP 	Created showPos = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='showPos', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.7150 	EXP 	Created Fixation_earlyfinish = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation_earlyfinish', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.7167 	EXP 	Created Fixation_P = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='Fixation_P', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.7170 	EXP 	Created sequence: sequential, trialTypes=1, nReps=9, seed=None
+14.7172 	EXP 	New trial (rep=0, index=0): None
+14.7303 	EXP 	slider: autoLog = True
+14.7303 	EXP 	slider: markerPos = 50
+14.7303 	EXP 	slider: styleTweaks = []
+14.7303 	EXP 	slider: styleTweaks = []
+14.7303 	EXP 	slider: styleTweaks = []
+14.7303 	EXP 	slider: styleTweaks = []
+14.7303 	EXP 	slider: contrast = 1.0
+14.7303 	EXP 	slider: autoLog = True
+14.7303 	EXP 	displayWaiting: autoDraw = True
+16.2731 	EXP 	New trial (rep=1, index=0): None
+16.2774 	DATA 	Keypress: equal
+16.2864 	EXP 	displayWaiting: autoDraw = False
+16.2864 	EXP 	displayWaiting: autoDraw = True
+16.4807 	EXP 	New trial (rep=2, index=0): None
+16.4843 	DATA 	Keypress: equal
+16.4931 	EXP 	displayWaiting: autoDraw = False
+16.4931 	EXP 	displayWaiting: autoDraw = True
+16.6972 	EXP 	New trial (rep=3, index=0): None
+16.7008 	DATA 	Keypress: equal
+16.7096 	EXP 	displayWaiting: autoDraw = False
+16.7096 	EXP 	displayWaiting: autoDraw = True
+16.9060 	EXP 	New trial (rep=4, index=0): None
+16.9084 	DATA 	Keypress: equal
+16.9176 	EXP 	displayWaiting: autoDraw = False
+16.9176 	EXP 	displayWaiting: autoDraw = True
+17.1107 	EXP 	New trial (rep=5, index=0): None
+17.1130 	DATA 	Keypress: equal
+17.1247 	EXP 	displayWaiting: autoDraw = False
+17.1247 	EXP 	displayWaiting: autoDraw = True
+17.3030 	EXP 	New trial (rep=6, index=0): None
+17.3057 	DATA 	Keypress: equal
+17.3145 	EXP 	displayWaiting: autoDraw = False
+17.3145 	EXP 	displayWaiting: autoDraw = True
+17.5188 	EXP 	New trial (rep=7, index=0): None
+17.5291 	EXP 	displayWaiting: autoDraw = False
+17.5291 	EXP 	displayWaiting: autoDraw = True
+17.5450 	DATA 	Keypress: equal
+17.7032 	EXP 	New trial (rep=8, index=0): None
+17.7059 	DATA 	Keypress: equal
+17.7162 	EXP 	displayWaiting: autoDraw = False
+17.7162 	EXP 	displayWaiting: autoDraw = True
+17.9253 	EXP 	Imported Runs.csv as conditions, 3 conditions, 1 params
+17.9256 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+17.9258 	EXP 	New trial (rep=0, index=0): OrderedDict([('RunNumber', 1)])
+17.9307 	EXP 	Imported ThoughtStimuli_subject001_run1.csv as conditions, 9 conditions, 3 params
+17.9310 	EXP 	Created sequence: sequential, trialTypes=9, nReps=1, seed=None
+17.9313 	EXP 	New trial (rep=0, index=0): OrderedDict([('ThoughtNumber', 1), ('Thought', 'homework'), ('Intensity', 'high')])
+17.9409 	EXP 	Imported SART_subject001_run1_thought1.csv as conditions, 18 conditions, 5 params
+17.9412 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+17.9415 	EXP 	New trial (rep=0, index=0): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 7), ('correct', 2.0)])
+17.9477 	DATA 	Keypress: equal
+17.9556 	EXP 	displayWaiting: autoDraw = False
+17.9556 	EXP 	D_Cue: height = 0.2
+17.9556 	EXP 	D_Cue: height = 0.2
+17.9556 	EXP 	D_Cue: height = 0.2
+17.9556 	EXP 	D_Cue: text = 7
+17.9556 	EXP 	D_Cue: autoDraw = True
+18.1858 	EXP 	D_Fixation: autoDraw = True
+18.2093 	EXP 	D_Cue: autoDraw = False
+18.8660 	DATA 	Keypress: 1
+19.9255 	EXP 	New trial (rep=0, index=1): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 9), ('correct', 2.0)])
+19.9408 	EXP 	D_Fixation: autoDraw = False
+19.9408 	EXP 	D_Cue: autoDraw = False
+19.9408 	EXP 	D_Fixation: autoDraw = False
+19.9408 	EXP 	D_Cue: height = 0.2
+19.9408 	EXP 	D_Cue: height = 0.2
+19.9408 	EXP 	D_Cue: height = 0.2
+19.9408 	EXP 	D_Cue: text = 9
+19.9408 	EXP 	D_Cue: autoDraw = True
+20.1827 	EXP 	D_Fixation: autoDraw = True
+20.1947 	EXP 	D_Cue: autoDraw = False
+20.2000 	DATA 	Keypress: 2
+21.9223 	EXP 	New trial (rep=0, index=2): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 2), ('correct', 2.0)])
+21.9366 	EXP 	D_Fixation: autoDraw = False
+21.9366 	EXP 	D_Cue: autoDraw = False
+21.9366 	EXP 	D_Fixation: autoDraw = False
+21.9366 	EXP 	D_Cue: height = 0.2
+21.9366 	EXP 	D_Cue: height = 0.2
+21.9366 	EXP 	D_Cue: height = 0.2
+21.9366 	EXP 	D_Cue: text = 2
+21.9366 	EXP 	D_Cue: autoDraw = True
+22.1747 	DATA 	Keypress: 2
+22.1841 	EXP 	D_Cue: autoDraw = False
+22.1841 	EXP 	D_Fixation: autoDraw = True
+23.9293 	EXP 	New trial (rep=0, index=3): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 4), ('correct', 2.0)])
+23.9455 	EXP 	D_Fixation: autoDraw = False
+23.9455 	EXP 	D_Cue: autoDraw = False
+23.9455 	EXP 	D_Fixation: autoDraw = False
+23.9455 	EXP 	D_Cue: height = 0.2
+23.9455 	EXP 	D_Cue: height = 0.2
+23.9455 	EXP 	D_Cue: height = 0.2
+23.9455 	EXP 	D_Cue: text = 4
+23.9455 	EXP 	D_Cue: autoDraw = True
+24.1883 	EXP 	D_Fixation: autoDraw = True
+24.2012 	EXP 	D_Cue: autoDraw = False
+24.2775 	DATA 	Keypress: 2
+25.9361 	EXP 	New trial (rep=0, index=4): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 6), ('correct', 2.0)])
+25.9495 	EXP 	D_Cue: autoDraw = False
+25.9495 	EXP 	D_Fixation: autoDraw = False
+25.9495 	EXP 	D_Cue: height = 0.2
+25.9495 	EXP 	D_Cue: height = 0.2
+25.9495 	EXP 	D_Cue: height = 0.2
+25.9495 	EXP 	D_Cue: text = 6
+25.9495 	EXP 	D_Cue: autoDraw = True
+26.1762 	EXP 	D_Fixation: autoDraw = True
+26.2039 	EXP 	D_Cue: autoDraw = False
+26.2716 	DATA 	Keypress: 2
+27.9197 	EXP 	New trial (rep=0, index=5): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 6), ('correct', 2.0)])
+27.9314 	EXP 	D_Fixation: autoDraw = False
+27.9314 	EXP 	D_Cue: autoDraw = False
+27.9314 	EXP 	D_Fixation: autoDraw = False
+27.9314 	EXP 	D_Cue: height = 0.2
+27.9314 	EXP 	D_Cue: height = 0.2
+27.9314 	EXP 	D_Cue: height = 0.2
+27.9314 	EXP 	D_Cue: text = 6
+27.9314 	EXP 	D_Cue: autoDraw = True
+28.1816 	EXP 	D_Cue: autoDraw = False
+28.1816 	EXP 	D_Fixation: autoDraw = True
+28.3208 	DATA 	Keypress: 2
+29.9256 	EXP 	New trial (rep=0, index=6): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'nogo'), ('stimulus', 8), ('correct', 'None')])
+29.9399 	EXP 	D_Fixation: autoDraw = False
+29.9399 	EXP 	D_Cue: autoDraw = False
+29.9399 	EXP 	D_Fixation: autoDraw = False
+29.9399 	EXP 	D_Cue: height = 0.2
+29.9399 	EXP 	D_Cue: height = 0.2
+29.9399 	EXP 	D_Cue: height = 0.2
+29.9399 	EXP 	D_Cue: text = 8
+29.9399 	EXP 	D_Cue: autoDraw = True
+30.1852 	EXP 	D_Fixation: autoDraw = True
+30.1939 	EXP 	D_Cue: autoDraw = False
+30.3211 	DATA 	Keypress: 2
+31.9253 	EXP 	New trial (rep=0, index=7): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 7), ('correct', 2.0)])
+31.9501 	EXP 	D_Fixation: autoDraw = False
+31.9501 	EXP 	D_Cue: autoDraw = False
+31.9501 	EXP 	D_Fixation: autoDraw = False
+31.9501 	EXP 	D_Cue: height = 0.2
+31.9501 	EXP 	D_Cue: height = 0.2
+31.9501 	EXP 	D_Cue: height = 0.2
+31.9501 	EXP 	D_Cue: text = 7
+31.9501 	EXP 	D_Cue: autoDraw = True
+32.1787 	EXP 	D_Fixation: autoDraw = True
+32.2062 	EXP 	D_Cue: autoDraw = False
+32.3775 	DATA 	Keypress: 2
+33.9214 	EXP 	New trial (rep=0, index=8): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'nogo'), ('stimulus', 8), ('correct', 'None')])
+33.9381 	EXP 	D_Fixation: autoDraw = False
+33.9381 	EXP 	D_Cue: autoDraw = False
+33.9381 	EXP 	D_Fixation: autoDraw = False
+33.9381 	EXP 	D_Cue: height = 0.2
+33.9381 	EXP 	D_Cue: height = 0.2
+33.9381 	EXP 	D_Cue: height = 0.2
+33.9381 	EXP 	D_Cue: text = 8
+33.9381 	EXP 	D_Cue: autoDraw = True
+34.1785 	EXP 	D_Fixation: autoDraw = True
+34.1904 	EXP 	D_Cue: autoDraw = False
+34.2778 	DATA 	Keypress: 2
+35.9192 	EXP 	New trial (rep=0, index=9): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 4), ('correct', 2.0)])
+35.9302 	EXP 	D_Fixation: autoDraw = False
+35.9302 	EXP 	D_Cue: autoDraw = False
+35.9302 	EXP 	D_Fixation: autoDraw = False
+35.9302 	EXP 	D_Cue: height = 0.2
+35.9302 	EXP 	D_Cue: height = 0.2
+35.9302 	EXP 	D_Cue: height = 0.2
+35.9302 	EXP 	D_Cue: text = 4
+35.9302 	EXP 	D_Cue: autoDraw = True
+36.1534 	DATA 	Keypress: 2
+36.1918 	EXP 	D_Cue: autoDraw = False
+36.1918 	EXP 	D_Fixation: autoDraw = True
+37.9290 	EXP 	New trial (rep=0, index=10): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'nogo'), ('stimulus', 8), ('correct', 'None')])
+37.9423 	EXP 	D_Fixation: autoDraw = False
+37.9423 	EXP 	D_Cue: autoDraw = False
+37.9423 	EXP 	D_Fixation: autoDraw = False
+37.9423 	EXP 	D_Cue: height = 0.2
+37.9423 	EXP 	D_Cue: height = 0.2
+37.9423 	EXP 	D_Cue: height = 0.2
+37.9423 	EXP 	D_Cue: text = 8
+37.9423 	EXP 	D_Cue: autoDraw = True
+38.1850 	EXP 	D_Fixation: autoDraw = True
+38.1935 	EXP 	D_Cue: autoDraw = False
+38.2938 	DATA 	Keypress: 2
+39.9218 	EXP 	New trial (rep=0, index=11): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 1), ('correct', 2.0)])
+39.9380 	EXP 	D_Fixation: autoDraw = False
+39.9380 	EXP 	D_Cue: autoDraw = False
+39.9380 	EXP 	D_Fixation: autoDraw = False
+39.9380 	EXP 	D_Cue: height = 0.2
+39.9380 	EXP 	D_Cue: height = 0.2
+39.9380 	EXP 	D_Cue: height = 0.2
+39.9380 	EXP 	D_Cue: text = 1
+39.9380 	EXP 	D_Cue: autoDraw = True
+40.1762 	EXP 	D_Fixation: autoDraw = True
+40.2000 	EXP 	D_Cue: autoDraw = False
+40.3063 	DATA 	Keypress: 2
+41.9125 	EXP 	New trial (rep=0, index=12): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 4), ('correct', 2.0)])
+41.9251 	EXP 	D_Fixation: autoDraw = False
+41.9251 	EXP 	D_Cue: autoDraw = False
+41.9251 	EXP 	D_Fixation: autoDraw = False
+41.9251 	EXP 	D_Cue: height = 0.2
+41.9251 	EXP 	D_Cue: height = 0.2
+41.9251 	EXP 	D_Cue: height = 0.2
+41.9251 	EXP 	D_Cue: text = 4
+41.9369 	EXP 	D_Cue: autoDraw = True
+42.1765 	EXP 	D_Fixation: autoDraw = True
+42.2001 	EXP 	D_Cue: autoDraw = False
+42.3715 	DATA 	Keypress: 2
+43.9195 	EXP 	New trial (rep=0, index=13): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 5), ('correct', 2.0)])
+43.9378 	EXP 	D_Fixation: autoDraw = False
+43.9378 	EXP 	D_Cue: autoDraw = False
+43.9378 	EXP 	D_Fixation: autoDraw = False
+43.9378 	EXP 	D_Cue: height = 0.2
+43.9378 	EXP 	D_Cue: height = 0.2
+43.9378 	EXP 	D_Cue: height = 0.2
+43.9378 	EXP 	D_Cue: text = 5
+43.9378 	EXP 	D_Cue: autoDraw = True
+44.1769 	EXP 	D_Fixation: autoDraw = True
+44.1899 	EXP 	D_Cue: autoDraw = False
+44.6389 	DATA 	Keypress: 2
+45.9217 	EXP 	New trial (rep=0, index=14): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 9), ('correct', 2.0)])
+45.9374 	EXP 	D_Fixation: autoDraw = False
+45.9374 	EXP 	D_Cue: autoDraw = False
+45.9374 	EXP 	D_Fixation: autoDraw = False
+45.9374 	EXP 	D_Cue: height = 0.2
+45.9374 	EXP 	D_Cue: height = 0.2
+45.9374 	EXP 	D_Cue: height = 0.2
+45.9374 	EXP 	D_Cue: text = 9
+45.9374 	EXP 	D_Cue: autoDraw = True
+46.1760 	EXP 	D_Fixation: autoDraw = True
+46.2002 	EXP 	D_Cue: autoDraw = False
+47.9094 	EXP 	New trial (rep=0, index=15): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'nogo'), ('stimulus', 8), ('correct', 'None')])
+47.9230 	EXP 	D_Fixation: autoDraw = False
+47.9230 	EXP 	D_Cue: autoDraw = False
+47.9230 	EXP 	D_Fixation: autoDraw = False
+47.9230 	EXP 	D_Cue: height = 0.2
+47.9230 	EXP 	D_Cue: height = 0.2
+47.9230 	EXP 	D_Cue: height = 0.2
+47.9230 	EXP 	D_Cue: text = 8
+47.9366 	EXP 	D_Cue: autoDraw = True
+48.1768 	EXP 	D_Fixation: autoDraw = True
+48.1905 	EXP 	D_Cue: autoDraw = False
+49.8945 	DATA 	Keypress: 2
+49.9274 	EXP 	New trial (rep=0, index=16): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'go'), ('stimulus', 6), ('correct', 2.0)])
+49.9401 	EXP 	D_Fixation: autoDraw = False
+49.9401 	EXP 	D_Cue: autoDraw = False
+49.9401 	EXP 	D_Fixation: autoDraw = False
+49.9401 	EXP 	D_Cue: height = 0.2
+49.9401 	EXP 	D_Cue: height = 0.2
+49.9401 	EXP 	D_Cue: height = 0.2
+49.9401 	EXP 	D_Cue: text = 6
+49.9401 	EXP 	D_Cue: autoDraw = True
+50.1852 	EXP 	D_Fixation: autoDraw = True
+50.1940 	EXP 	D_Cue: autoDraw = False
+50.2497 	DATA 	Keypress: 2
+51.9216 	EXP 	New trial (rep=0, index=17): OrderedDict([('participant', 1), ('runNumber', 1), ('type', 'nogo'), ('stimulus', 8), ('correct', 'None')])
+51.9376 	EXP 	D_Fixation: autoDraw = False
+51.9376 	EXP 	D_Cue: autoDraw = False
+51.9376 	EXP 	D_Fixation: autoDraw = False
+51.9376 	EXP 	D_Cue: height = 0.2
+51.9376 	EXP 	D_Cue: height = 0.2
+51.9376 	EXP 	D_Cue: height = 0.2
+51.9376 	EXP 	D_Cue: text = 8
+51.9376 	EXP 	D_Cue: autoDraw = True
+52.1768 	EXP 	D_Fixation: autoDraw = True
+52.1895 	EXP 	D_Cue: autoDraw = False
+52.2084 	DATA 	Keypress: 2
+53.9296 	EXP 	D_Fixation: autoDraw = False
+53.9296 	EXP 	D_Cue: autoDraw = False
+53.9296 	EXP 	D_Fixation: autoDraw = False
+53.9296 	EXP 	Reflect: autoDraw = True
+55.9336 	EXP 	Imported ProbeQuestions.csv as conditions, 6 conditions, 4 params
+55.9341 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+55.9345 	EXP 	New trial (rep=0, index=0): OrderedDict([('probenumber', 1), ('probetext', 'To what extent were your thoughts repetitive, intrusive, or hard to control?'), ('leftanchor', 'not at all'), ('rightanchor', 'extremely')])
+55.9548 	EXP 	window1: mouseVisible = True
+56.0569 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['not at all', 'extremely'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+56.1452 	EXP 	Reflect: autoDraw = False
+56.1452 	EXP 	Reflect: autoDraw = False
+56.1452 	EXP 	slider: markerPos = None
+56.1452 	EXP 	slider: markerPos = 50
+56.1452 	EXP 	slider: autoLog = True
+56.1452 	EXP 	slider: markerPos = 50
+56.1452 	EXP 	slider: styleTweaks = []
+56.1452 	EXP 	slider: styleTweaks = []
+56.1452 	EXP 	slider: styleTweaks = []
+56.1452 	EXP 	slider: styleTweaks = []
+56.1452 	EXP 	slider: contrast = 1.0
+56.1452 	EXP 	slider: autoLog = True
+56.1452 	EXP 	sliderText: height = 0.05
+56.1452 	EXP 	sliderText: height = 0.05
+56.1452 	EXP 	sliderText: height = 0.05
+56.1452 	EXP 	sliderText: text = 'To what extent were your thoughts repetitive, intrusive, or hard to control?'
+56.1452 	EXP 	slider: autoDraw = True
+56.1452 	EXP 	sliderText: autoDraw = True
+56.1452 	EXP 	showPos: autoDraw = True
+56.9274 	DATA 	Keypress: 1
+56.9593 	EXP 	New trial (rep=0, index=1): OrderedDict([('probenumber', 2), ('probetext', 'To what extent were your thoughts focused on the task?'), ('leftanchor', 'not at all'), ('rightanchor', 'extremely')])
+56.9757 	EXP 	window1: mouseVisible = True
+57.0373 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['not at all', 'extremely'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+57.0852 	EXP 	slider: markerPos = 50.0
+57.0852 	EXP 	slider: autoDraw = False
+57.0852 	EXP 	sliderText: autoDraw = False
+57.0852 	EXP 	showPos: autoDraw = False
+57.0852 	EXP 	slider: markerPos = None
+57.0852 	EXP 	slider: markerPos = 50
+57.0852 	EXP 	slider: autoLog = True
+57.0852 	EXP 	slider: markerPos = 50
+57.0852 	EXP 	slider: styleTweaks = []
+57.0852 	EXP 	slider: styleTweaks = []
+57.0852 	EXP 	slider: styleTweaks = []
+57.0852 	EXP 	slider: styleTweaks = []
+57.0852 	EXP 	slider: contrast = 1.0
+57.0852 	EXP 	slider: autoLog = True
+57.0852 	EXP 	sliderText: height = 0.05
+57.0852 	EXP 	sliderText: height = 0.05
+57.0852 	EXP 	sliderText: height = 0.05
+57.0852 	EXP 	sliderText: text = 'To what extent were your thoughts focused on the task?'
+57.0852 	EXP 	slider: autoDraw = True
+57.0852 	EXP 	sliderText: autoDraw = True
+57.0852 	EXP 	showPos: autoDraw = True
+57.1150 	DATA 	Keypress: 1
+57.1267 	EXP 	New trial (rep=0, index=2): OrderedDict([('probenumber', 3), ('probetext', 'To what extent were you trying (making an effort) to focus on the task?'), ('leftanchor', 'not at all'), ('rightanchor', 'extremely')])
+57.1426 	EXP 	window1: mouseVisible = True
+57.1972 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['not at all', 'extremely'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+57.2430 	EXP 	slider: markerPos = 50.0
+57.2430 	EXP 	slider: autoDraw = False
+57.2430 	EXP 	sliderText: autoDraw = False
+57.2430 	EXP 	showPos: autoDraw = False
+57.2430 	EXP 	slider: markerPos = None
+57.2430 	EXP 	slider: markerPos = 50
+57.2430 	EXP 	slider: autoLog = True
+57.2430 	EXP 	slider: markerPos = 50
+57.2430 	EXP 	slider: styleTweaks = []
+57.2430 	EXP 	slider: styleTweaks = []
+57.2430 	EXP 	slider: styleTweaks = []
+57.2430 	EXP 	slider: styleTweaks = []
+57.2430 	EXP 	slider: contrast = 1.0
+57.2430 	EXP 	slider: autoLog = True
+57.2430 	EXP 	sliderText: height = 0.05
+57.2430 	EXP 	sliderText: height = 0.05
+57.2430 	EXP 	sliderText: height = 0.05
+57.2430 	EXP 	sliderText: text = 'To what extent were you trying (making an effort) to focus on the task?'
+57.2430 	EXP 	slider: autoDraw = True
+57.2430 	EXP 	sliderText: autoDraw = True
+57.2430 	EXP 	showPos: autoDraw = True
+58.1181 	DATA 	Keypress: 2
+58.1393 	EXP 	slider: markerPos = 45.0
+58.3920 	DATA 	Keypress: 2
+58.4247 	EXP 	slider: markerPos = 40.0
+58.6453 	DATA 	Keypress: 2
+58.6788 	EXP 	slider: markerPos = 35.0
+60.7786 	DATA 	Keypress: 1
+60.8066 	EXP 	New trial (rep=0, index=3): OrderedDict([('probenumber', 4), ('probetext', 'To what extent did you feel afraid, scared, or frightened?'), ('leftanchor', 'not at all'), ('rightanchor', 'extremely')])
+60.8189 	EXP 	window1: mouseVisible = True
+60.8611 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['not at all', 'extremely'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+60.8940 	EXP 	slider: markerPos = 35.0
+60.8940 	EXP 	slider: autoDraw = False
+60.8940 	EXP 	sliderText: autoDraw = False
+60.8940 	EXP 	showPos: autoDraw = False
+60.8940 	EXP 	slider: markerPos = None
+60.8940 	EXP 	slider: markerPos = 50
+60.8940 	EXP 	slider: autoLog = True
+60.8940 	EXP 	slider: markerPos = 50
+60.8940 	EXP 	slider: styleTweaks = []
+60.8940 	EXP 	slider: styleTweaks = []
+60.8940 	EXP 	slider: styleTweaks = []
+60.8940 	EXP 	slider: styleTweaks = []
+60.8940 	EXP 	slider: contrast = 1.0
+60.8940 	EXP 	slider: autoLog = True
+60.8940 	EXP 	sliderText: height = 0.05
+60.8940 	EXP 	sliderText: height = 0.05
+60.8940 	EXP 	sliderText: height = 0.05
+60.8940 	EXP 	sliderText: text = 'To what extent did you feel afraid, scared, or frightened?'
+60.8940 	EXP 	slider: autoDraw = True
+60.8940 	EXP 	sliderText: autoDraw = True
+60.8940 	EXP 	showPos: autoDraw = True
+61.5323 	DATA 	Keypress: 3
+61.5648 	EXP 	slider: markerPos = 55.0
+61.8268 	DATA 	Keypress: 3
+61.8511 	EXP 	slider: markerPos = 60.0
+62.3410 	DATA 	Keypress: 1
+62.3608 	EXP 	New trial (rep=0, index=4): OrderedDict([('probenumber', 5), ('probetext', 'To what extent did you feel sad, blue, or downhearted?'), ('leftanchor', 'not at all'), ('rightanchor', 'extremely')])
+62.3725 	EXP 	window1: mouseVisible = True
+62.4146 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['not at all', 'extremely'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+62.4477 	EXP 	slider: markerPos = 60.0
+62.4477 	EXP 	slider: autoDraw = False
+62.4477 	EXP 	sliderText: autoDraw = False
+62.4477 	EXP 	showPos: autoDraw = False
+62.4477 	EXP 	slider: markerPos = None
+62.4477 	EXP 	slider: markerPos = 50
+62.4477 	EXP 	slider: autoLog = True
+62.4477 	EXP 	slider: markerPos = 50
+62.4477 	EXP 	slider: styleTweaks = []
+62.4477 	EXP 	slider: styleTweaks = []
+62.4477 	EXP 	slider: styleTweaks = []
+62.4477 	EXP 	slider: styleTweaks = []
+62.4477 	EXP 	slider: contrast = 1.0
+62.4477 	EXP 	slider: autoLog = True
+62.4477 	EXP 	sliderText: height = 0.05
+62.4477 	EXP 	sliderText: height = 0.05
+62.4477 	EXP 	sliderText: height = 0.05
+62.4477 	EXP 	sliderText: text = 'To what extent did you feel sad, blue, or downhearted?'
+62.4477 	EXP 	slider: autoDraw = True
+62.4477 	EXP 	sliderText: autoDraw = True
+62.4477 	EXP 	showPos: autoDraw = True
+63.0500 	DATA 	Keypress: 2
+63.0884 	EXP 	slider: markerPos = 45.0
+63.2436 	DATA 	Keypress: 2
+63.2774 	EXP 	slider: markerPos = 40.0
+63.4477 	DATA 	Keypress: 2
+63.4874 	EXP 	slider: markerPos = 35.0
+63.6821 	DATA 	Keypress: 1
+63.7050 	EXP 	New trial (rep=0, index=5): OrderedDict([('probenumber', 6), ('probetext', 'To what extent did you feel:'), ('leftanchor', 'sleepy'), ('rightanchor', 'lively')])
+63.7177 	EXP 	window1: mouseVisible = True
+63.7708 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=['sleepy', 'lively'], lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+63.8047 	EXP 	slider: markerPos = 35.0
+63.8047 	EXP 	slider: autoDraw = False
+63.8047 	EXP 	sliderText: autoDraw = False
+63.8047 	EXP 	showPos: autoDraw = False
+63.8047 	EXP 	slider: markerPos = None
+63.8047 	EXP 	slider: markerPos = 50
+63.8047 	EXP 	slider: autoLog = True
+63.8047 	EXP 	slider: markerPos = 50
+63.8047 	EXP 	slider: styleTweaks = []
+63.8047 	EXP 	slider: styleTweaks = []
+63.8047 	EXP 	slider: styleTweaks = []
+63.8047 	EXP 	slider: styleTweaks = []
+63.8047 	EXP 	slider: contrast = 1.0
+63.8047 	EXP 	slider: autoLog = True
+63.8047 	EXP 	sliderText: height = 0.05
+63.8047 	EXP 	sliderText: height = 0.05
+63.8047 	EXP 	sliderText: height = 0.05
+63.8047 	EXP 	sliderText: text = 'To what extent did you feel:'
+63.8047 	EXP 	slider: autoDraw = True
+63.8047 	EXP 	sliderText: autoDraw = True
+63.8047 	EXP 	showPos: autoDraw = True
+64.7835 	DATA 	Keypress: 3
+64.8259 	EXP 	slider: markerPos = 55.0
+64.9973 	DATA 	Keypress: 3
+65.0186 	EXP 	slider: markerPos = 60.0
+65.1735 	DATA 	Keypress: 3
+65.2090 	EXP 	slider: markerPos = 65.0
+66.1964 	DATA 	Keypress: 2
+66.2225 	EXP 	slider: markerPos = 60.0
+66.9013 	DATA 	Keypress: 3
+66.9216 	EXP 	slider: markerPos = 65.0
+67.1698 	DATA 	Keypress: 1
+67.2067 	EXP 	slider: markerPos = 65.0
+67.2067 	EXP 	slider: autoDraw = False
+67.2067 	EXP 	sliderText: autoDraw = False
+67.2067 	EXP 	showPos: autoDraw = False
+67.2067 	EXP 	Fixation_earlyfinish: autoDraw = True
+69.0172 	DATA 	Keypress: escape
+69.8416 	EXP 	window1: mouseVisible = True

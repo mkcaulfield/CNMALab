@@ -1,0 +1,55 @@
+3.6065 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.1101 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.1156 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe8049b0b20>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe7d4cacc40>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.1161 	EXP 	window1: mouseVisible = True
+15.1163 	EXP 	window1: mouseVisible = True
+15.1164 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.1164 	EXP 	window1: recordFrameIntervals = False
+15.2371 	EXP 	window1: recordFrameIntervals = True
+15.3679 	WARNING 	t of last frame was 23.36ms (=1/42)
+15.4531 	WARNING 	t of last frame was 24.85ms (=1/40)
+15.5053 	WARNING 	t of last frame was 25.11ms (=1/39)
+15.7676 	WARNING 	t of last frame was 22.53ms (=1/44)
+16.2129 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.5300 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+19.0396 	EXP 	Created displayWaiting = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='displayWaiting', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Awaiting start signal from scanner...', units='height', win=Window(...), wrapWidth=1)
+19.0442 	EXP 	Created ThoughtText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ThoughtText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0462 	EXP 	Created D_Cue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.2, italic=False, languageStyle='LTR', name='D_Cue', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0552 	EXP 	Created D_Fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='D_Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.4356 	EXP 	Created Reflect = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Reflect', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Notice thoughts', units='height', win=Window(...), wrapWidth=1)
+19.4626 	EXP 	window1: mouseVisible = True
+19.5148 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=5.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.25]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=50, style='rating', styleTweaks=[], ticks=ndarray(...), units='height', win=Window(...))
+19.5169 	EXP 	Created sliderText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sliderText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.5191 	EXP 	Created showPos = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='showPos', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.5224 	EXP 	Created Fixation_earlyfinish = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Fixation_earlyfinish', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.5247 	EXP 	Created Fixation_P = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='Fixation_P', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.5403 	EXP 	Imported Runs.csv as conditions, 3 conditions, 1 params
+19.5416 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+19.5420 	EXP 	New trial (rep=0, index=0): OrderedDict([('RunNumber', 1)])
+19.5600 	EXP 	slider: autoLog = True
+19.5600 	EXP 	slider: markerPos = 50
+19.5600 	EXP 	slider: styleTweaks = []
+19.5600 	EXP 	slider: styleTweaks = []
+19.5600 	EXP 	slider: styleTweaks = []
+19.5600 	EXP 	slider: styleTweaks = []
+19.5600 	EXP 	slider: contrast = 1.0
+19.5600 	EXP 	slider: autoLog = True
+19.5600 	EXP 	displayWaiting: autoDraw = True
+21.2064 	EXP 	Imported ThoughtStimuli_subject001_run1.csv as conditions, 9 conditions, 3 params
+21.2069 	EXP 	Created sequence: sequential, trialTypes=9, nReps=1, seed=None
+21.2073 	EXP 	New trial (rep=0, index=0): OrderedDict([('ThoughtNumber', 1), ('Thought', 'homework'), ('Intensity', 'high')])
+21.2193 	DATA 	Keypress: equal
+21.2291 	EXP 	displayWaiting: autoDraw = False
+21.2291 	EXP 	ThoughtText: height = 0.1
+21.2291 	EXP 	ThoughtText: height = 0.1
+21.2291 	EXP 	ThoughtText: height = 0.1
+21.2291 	EXP 	ThoughtText: text = 'homework'
+21.2291 	EXP 	ThoughtText: autoDraw = True
+22.6201 	DATA 	Keypress: escape
+23.6636 	EXP 	window1: mouseVisible = True
